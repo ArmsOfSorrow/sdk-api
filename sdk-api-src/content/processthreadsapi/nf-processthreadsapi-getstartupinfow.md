@@ -68,7 +68,7 @@ ms.custom: 19H1
 
 
 Retrieves the contents of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure that was specified when the calling process was created.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfow">STARTUPINFO</a> structure that was specified when the calling process was created.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Retrieves the contents of the
 ### -param lpStartupInfo [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure that receives the startup information.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfow">STARTUPINFO</a> structure that receives the startup information.
 
 
 ## -returns
@@ -98,7 +98,7 @@ If an error occurs, the ANSI version of this function (<b>GetStartupInfoA</b>) c
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure was specified by the process that created the calling process. It can be used to specify properties associated with the main window of the calling process.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfow">STARTUPINFO</a> structure was specified by the process that created the calling process. It can be used to specify properties associated with the main window of the calling process.
 
 
 
